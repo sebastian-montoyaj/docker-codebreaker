@@ -1,0 +1,10 @@
+version: '3'
+services:
+  react:
+    image: sebastianmontoyaj/frontcodebreakerfinal
+    ports:
+      - "3000:3000"
+  scala:
+    image: sebastianmontoyaj/backcodebreakerfinal
+    ports:
+      - "9000:9000"
